@@ -45,7 +45,7 @@ def test_main_window(qtbot):
     qtbot.addWidget(main_window)
     
     # 验证主窗口显示正确的欢迎消息
-    assert main_window.label.text() == "Welcome to the main window!!"
+    assert main_window.label.text() == "Welcome to the main window!!!!!"
 
 def call():
     pass
