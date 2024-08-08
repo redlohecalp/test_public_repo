@@ -38,7 +38,7 @@ class TestLoginWindow(unittest.TestCase):
         QTest.mouseClick(self.login_window.login_button, Qt.LeftButton)
 
         self.assertEqual(self.login_window.username_input.text(), 'user')
-        self.assertEqual(self.login_window.password_input.text(), 'wrongpassword')
+        self.assertEqual(self.login_window.password_input.text(), 'wrongpassword11')
 
 if __name__ == '__main__':
     # cov = coverage.Coverage()
