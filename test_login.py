@@ -41,16 +41,16 @@ class TestLoginWindow(unittest.TestCase):
         self.assertEqual(self.login_window.password_input.text(), 'wrongpassword')
 
 if __name__ == '__main__':
-    cov = coverage.Coverage()
-    cov.start()
+    # cov = coverage.Coverage()
+    # cov.start()
     
-    loader = unittest.TestLoader()
-    tests = loader.discover('.')
-    testRunner = unittest.runner.TextTestRunner()
-    testRunner.run(tests)
+    # loader = unittest.TestLoader()
+    # tests = loader.discover('.')
+    # testRunner = unittest.runner.TextTestRunner()
+    # testRunner.run(tests)
     
-    cov.stop()
-    # cov.save()
-    cov.report(show_missing=True)
-    # cov.html_report(directory='htmlcov')
-    # unittest.main()
+    # cov.stop()
+    # # cov.save()
+    # cov.report(show_missing=True)
+    # # cov.html_report(directory='htmlcov')
+    unittest.main()
