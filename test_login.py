@@ -6,7 +6,7 @@ Created on Wed Aug  7 10:41:08 2024
 """
 
 import unittest
-import coverage
+# import coverage
 from PyQt5.QtWidgets import QApplication
 from PyQt5.QtTest import QTest
 from PyQt5.QtCore import Qt
